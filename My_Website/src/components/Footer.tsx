@@ -7,7 +7,7 @@ export default function Footer() {
         <div>
           <div>
             <b style={{ color: "var(--ink)" }}>&lt;Chandana /&gt;</b><br />
-            Software Engineer / Python Developer / AI/ML Enthusiast
+            AI/ML Enthusiast / Software Engineer / Python Developer 
           </div>
           <div className="soc"><Github size={18} /><Linkedin size={18} /><Mail size={18} /></div>
         </div>

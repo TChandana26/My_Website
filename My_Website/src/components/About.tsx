@@ -1,6 +1,6 @@
 import { GraduationCap } from "lucide-react";
 
-const TAGS = ["Python", "SQL", "DSA", "OOP", "Flask", "MongoDB", "MySQL", "REST APIs", "Git/GitHub", "AI/ML"];
+const TAGS = ["ML", "Flask", "Jinja2", "REST APIs", "Data Structures and algorithums", "AWS", "Python", "OOP", "SQL", "MySQL", "NoSql" , "MongoDB", "Git/GitHub", "VS Code", "unit/integration/system testing"];
 
 export default function About() {
   return (
@@ -13,8 +13,8 @@ export default function About() {
             <h2 style={{ marginTop: 28 }}>Turning ideas into <span className="serif">working solutions.</span></h2>
           </div>
           <div>
-            <p>I am a Computer Science undergraduate passionate about software engineering, backend development, Python and artificial intelligence. I enjoy solving problems through clean, practical and useful code.</p>
-            <p>From designing REST APIs to exploring AI/ML, I'm drawn to the space where creativity meets real-world impact.</p>
+            <p>I’m a Computer Science undergraduate who loves turning ideas into software. My interests span software engineering, backend development, Python, and AI/ML, with a focus on building solutions that are practical, reliable, and meaningful.</p>
+            <p>I enjoy working with APIs, databases, and intelligent systems—exploring how thoughtful engineering and creative problem-solving can turn complex challenges into simple experiences. For me, code isn’t just about solving problems; it’s about creating possibilities.</p>
             <div className="tags">{TAGS.map(t => <span key={t} className="tag">{t}</span>)}</div>
           </div>
         </div>

@@ -2,10 +2,11 @@ import { Code2, Braces, Database, Brain, Wrench, Check } from "lucide-react";
 
 const SKILLS = [
   { t: "Programming", i: <Code2 size={20} />, l: ["Python", "SQL", "Data Structures & Algorithms", "OOP"] },
-  { t: "Backend", i: <Braces size={20} />, l: ["Flask", "REST APIs"] },
-  { t: "Databases", i: <Database size={20} />, l: ["MySQL", "MongoDB"] },
+  { t: "Backend", i: <Braces size={20} />, l: ["Flask", "REST APIs" , "Jinja2", "Session & State Management"]},
+  { t: "Frontend", i: <Braces size={20} />, l: ["React" , "HTML" , "CSS" ,"Javascript"]},
+  { t: "Databases", i: <Database size={20} />, l: ["MySQL (SQL)", "MongoDB (NoSQL)", "DBMS"] },
   { t: "Data & AI", i: <Brain size={20} />, l: ["Pandas", "NumPy", "Matplotlib", "Machine Learning", "AI/LLM Applications"] },
-  { t: "Tools", i: <Wrench size={20} />, l: ["Git", "GitHub", "VS Code", "Linux"] },
+  { t: "Tools", i: <Wrench size={20} />, l: ["AWS", "Git", "GitHub", "VS Code", "Linux" , "Unit,Integration & System Testing"] },
 ];
 
 export default function Skills() {

@@ -6,10 +6,12 @@ import Projects from "./components/Projects";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import CursorDots from "./components/CursorDots";
 
 export default function App() {
   return (
     <>
+      <CursorDots />
       <Navbar />
       <Hero />
       <About />
